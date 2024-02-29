@@ -111,7 +111,6 @@ import Swal from 'sweetalert2'
             })
             const resultado = await respuesta.json();
 
-            console.log(resultado)
 
             if(resultado.resultado) {
                 Swal.fire(

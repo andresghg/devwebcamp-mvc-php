@@ -4,13 +4,12 @@
   "description": "Proyecto Final Desarrollo Web Completo con @codigoconjuan",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build"
+    "start": "gulp dev"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^6.7.1",
+    "css-loader": "^6.8.1",
     "cssnano": "^5.1.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -28,11 +27,11 @@
     "gulp-terser-js": "^5.2.2",
     "gulp-webp": "^4.0.1",
     "sass": "^1.41.1",
-    "style-loader": "^3.3.1",
+    "style-loader": "^3.3.3",
     "terser": "^5.14.2"
   },
   "dependencies": {
-    "sweetalert2": "^11.4.31",
+    "sweetalert2": "^11.7.12",
     "swiper": "^8.3.2",
     "webpack-stream": "^7.0.0"
   }

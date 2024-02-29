@@ -53,7 +53,7 @@ class Router
         $url_actual = $_SERVER['PATH_INFO'] ?? '/';
 
         if(str_contains($url_actual, '/admin')) {
-            include_once __DIR__ . '/views/admin-layout.php';
+            include_once __DIR__ . '/views/admin_layout.php';
         } else {
             include_once __DIR__ . '/views/layout.php';
         }
